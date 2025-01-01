@@ -76,7 +76,7 @@ async def get_msg(userbot, sender, edit_id, msg_link, i, message):
         else:
             chat = msg_link.split("/")[-2]
         if chat in saved_channel_ids:
-            await app.edit_message_text(message.chat.id, edit_id, "Sorry! dude 😎 This channel is protected 🔐 by **__Team SPY__**")
+            await app.edit_message_text(message.chat.id, edit_id, "Sorry! dude 😎 This channel is protected 🔐 by **__Team Zozo__**")
             return
             
         file = ""
@@ -653,8 +653,8 @@ async def set_rename_command(user_id, custom_rename_tag):
 
 # Function to get the user's custom renaming preference
 def get_user_rename_preference(user_id):
-    # Retrieve the user's custom renaming tag if set, or default to 'Team SPY'
-    return user_rename_preferences.get(str(user_id), 'Team SPY')
+    # Retrieve the user's custom renaming tag if set, or default to 'Team Zozo'
+    return user_rename_preferences.get(str(user_id), 'Team Zozo')
 
 # Function to set custom caption preference
 async def set_caption_command(user_id, custom_caption):
@@ -682,7 +682,7 @@ async def settings_command(event):
         [Button.inline("Session Login", b'addsession'), Button.inline("Logout", b'logout')],
         [Button.inline("Set Thumbnail", b'setthumb'), Button.inline("Remove Thumbnail", b'remthumb')],
         [Button.inline("Upload Method", b'uploadmethod')],
-        [Button.url("Report Errors", "https://t.me/team_spy_pro")]
+        [Button.url("Report Errors", "https://t.me/team_zozo_x_bot")]
     ]
     
     await gf.send_file(
@@ -969,7 +969,7 @@ def progress_callback(done, total, user_id):
         f"│ **__Speed:__** {speed_mbps:.2f} Mbps\n"
         f"│ **__ETA:__** {remaining_time_min:.2f} min\n"
         f"╰──────────────────╯\n\n"
-        f"**__Powered by Team SPY__**"
+        f"**__Powered by Team Zozo__**"
     )
     
     # Update tracking variables for the user
