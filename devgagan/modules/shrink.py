@@ -67,7 +67,7 @@ async def token_handler(client, message):
         await message.reply_photo(
             photo=image_url,
             caption=(
-                "🚀 𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙋𝙍𝙄𝙈𝙀𝘽𝙊𝙏 — 𝙔𝙤𝙪𝙧 𝙍𝙚𝙨𝙩𝙧𝙞𝙘𝙩𝙚𝙙 𝘾𝙤𝙣𝙩𝙚𝙣𝙩 𝙐𝙣𝙡𝙤𝙘𝙠𝙚𝙧! 🔓\n\n"
+                "🚀 𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙏𝙀𝘼𝙈 𝙕𝙤𝙯𝙤 — 𝙔𝙤𝙪𝙧 𝙍𝙚𝙨𝙩𝙧𝙞𝙘𝙩𝙚𝙙 𝘾𝙤𝙣𝙩𝙚𝙣𝙩 𝙐𝙣𝙡𝙤𝙘𝙠𝙚𝙧! 🔓\n\n"
                 "👋 𝙒𝙝𝙖𝙩 𝙄 𝘿𝙤:\n"
                 "🔹 Bypass \"Forwarding Restricted\" posts from Telegram channels & groups\n"
                 "🔹 Instantly retrieve content from public channels\n"
@@ -86,7 +86,7 @@ async def token_handler(client, message):
                 "📌 𝙄𝙢𝙥𝙤𝙧𝙩𝙖𝙣𝙩:\n"
                 "> Check /terms, /plan & /help before using\n"
                 "> 👉 *Owner? Run* `/set` *once to setup all commands*\n\n"
-                "🔧 𝙈𝙖𝙞𝙣𝙩𝙖𝙞𝙣𝙚𝙙 𝙗𝙮: @PRIME_BOTZ"
+                "🔧 𝙈𝙖𝙞𝙣𝙩𝙖𝙞𝙣𝙚𝙙 𝙗𝙮: @team_zozo_pro"
             ),
             reply_markup=keyboard
         )
