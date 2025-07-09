@@ -56,7 +56,7 @@ async def token_handler(client, message):
         return
     user_id = message.chat.id
     if len(message.command) <= 1:
-        image_url = "https://i.postimg.cc/v8q8kGyz/startimg-1.jpg"
+        image_url = "https://i.ibb.co/PZJRN57d/photo-2025-07-09-15-05-52-7525098747760476176.jpg"
         join_button = InlineKeyboardButton("Join Channel", url="https://t.me/team_zozo_pro")
         premium = InlineKeyboardButton("Get Premium", url="https://t.me/team_zozo_x_bot")  # Callback for Help button
         keyboard = InlineKeyboardMarkup([
@@ -67,14 +67,30 @@ async def token_handler(client, message):
         await message.reply_photo(
             photo=image_url,
             caption=(
-                "Hi 👋 Welcome, Wanna intro...?\n\n"
-                "✳️ I can save posts from channels or groups where forwarding is off. I can download videos/audio from YT, INSTA, ... social platforms\n"
-                "✳️ Simply send the post link of a public channel. For private channels, do /login. Send /help to know more. \n\n"
-                "> Must check /terms, /plan & /help\n\n"
-                "> 👉 **__Note:__** Initiate /set to auto setup bot commands (owner only)"
+                "🚀 𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙋𝙍𝙄𝙈𝙀𝘽𝙊𝙏 — 𝙔𝙤𝙪𝙧 𝙍𝙚𝙨𝙩𝙧𝙞𝙘𝙩𝙚𝙙 𝘾𝙤𝙣𝙩𝙚𝙣𝙩 𝙐𝙣𝙡𝙤𝙘𝙠𝙚𝙧! 🔓\n\n"
+                "👋 𝙒𝙝𝙖𝙩 𝙄 𝘿𝙤:\n"
+                "🔹 Bypass \"Forwarding Restricted\" posts from Telegram channels & groups\n"
+                "🔹 Instantly retrieve content from public channels\n"
+                "🔹 Support for *private content* (with login)\n"
+                "🔹 *Also supports downloading from YouTube, Instagram & more!* 🎬\n"
+                "🔹 *Use* `/login` *for private content, and* `/help` *to learn more*\n\n"
+                "📥 𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚:\n"
+                "1. 🔗 Send me any *Telegram post link*\n"
+                "2. 🧠 I’ll unlock & show you the *full content*\n"
+                "3. 🔒 For private channels — Login required\n\n"
+                "✨ 𝙁𝙚𝙖𝙩𝙪𝙧𝙚𝙨:\n"
+                "✅ Access restricted posts with ease\n"
+                "✅ Works with both *Public* & *Private* channels\n"
+                "✅ Super-fast & Accurate\n"
+                "✅ Clean & Simple to use\n\n"
+                "📌 𝙄𝙢𝙥𝙤𝙧𝙩𝙖𝙣𝙩:\n"
+                "> Check /terms, /plan & /help before using\n"
+                "> 👉 *Owner? Run* `/set` *once to setup all commands*\n\n"
+                "🔧 𝙈𝙖𝙞𝙣𝙩𝙖𝙞𝙣𝙚𝙙 𝙗𝙮: @PRIME_BOTZ"
             ),
             reply_markup=keyboard
         )
+
         return  
         
     param = message.command[1] if len(message.command) > 1 else None
